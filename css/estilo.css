@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#form-section, #clients-list {
+    width: 300px;
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+button.edit, button.delete {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button.edit {
+    background-color: #2196F3;
+}
